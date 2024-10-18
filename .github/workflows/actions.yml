@@ -17,4 +17,5 @@ jobs:
 #
 #      - name: Use action from Ops repo
 #        uses: zilvertonz/silverton-dataops-brutesquad-example/.github/workflows/example.yml@*
-    uses: zilvertonz/silverton-dataops-brutesquad-example/.github/workflows/example.yml@*
+    uses: test-repo-1/.github/workflows/example.yaml@*
+
