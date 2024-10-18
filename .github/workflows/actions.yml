@@ -1,0 +1,20 @@
+name: Example Solutions Workflow
+on:
+  push:
+    branches: [ "*" ]
+  pull_request:
+    branches: [ "*" ]
+  workflow_dispatch:
+jobs:
+  build:
+#    runs-on: MA-Analytics-Runner
+#    steps:
+#      - name: Checkout Ops Repo
+#        uses: actions/checkout@v4
+#        with:
+#            repository: zilvertonz/silverton-dataops-brutesquad-example
+#            path: silverton-dataops-brutesquad-example
+#
+#      - name: Use action from Ops repo
+#        uses: zilvertonz/silverton-dataops-brutesquad-example/.github/workflows/example.yml@*
+    uses: zilvertonz/silverton-dataops-brutesquad-example/.github/workflows/example.yml@*
